@@ -1,0 +1,249 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 1%;
+  }
+  
+  nav ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    list-style: none;
+    padding-left: 30px;
+  }
+  
+  .left {
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 500px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    font-size: 1.02rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 30px 0;
+    background:url("bg1.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .firstsection {
+    flex: 1;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+  
+  .name {
+    color: aquamarine;
+  }
+  
+  .secondsection img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  /* About Me Section */
+  .about {
+    text-align: center;
+    padding: 5% 0;
+    background-color: rgb(33, 33, 102);
+    color: white;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Me Section */
+  .contact {
+    text-align: center;
+    padding: 5% 0;
+    background-color: rgb(0, 0, 33);
+    color: white;
+  }
+  
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Project Cards Section */
+  .project-cards {
+    text-align: center;
+    padding: 5% 0;
+    background-color:rgb(33, 33, 102)
+  }
+  
+  .allcards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(153, 153, 235);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* CV Section */
+  .cv {
+    text-align: center;
+    padding: 5% 0;
+    background-color: rgb(153, 153, 235);
+    color: white;
+  }
+  .work {
+    text-align:center;
+     padding: 5% ;
+     color: grey;
+     background-color: rgb(33, 33, 102);
+     
+  }
+  
+  .cv-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cv-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(33, 33, 102);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+/* Styling for the skills section */
+.skills {
+    background-color: rgb(153, 153, 235);
+    padding: 80px 0;
+}
+
+.skills-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.skills-category {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: rgb(33, 33, 102);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.skills-category:hover {
+  transform: translateY(-5px);
+}
+
+.skills-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skill-icons {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.skill-icons li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+}
+.skill-icons li:hover {
+  color: #3498db;
+}
+
+.skill-icons i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+}
+  
